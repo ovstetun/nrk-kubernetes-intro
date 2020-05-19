@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'da1f8617-c98e-4342-b8ce-5454e190c0e0'
-  imageRepository: 'ovstetunnrkkubernetesintro'
+  imageRepository: 'cvbackend'
   containerRegistry: 'ovstetun.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/backend/Dockerfile'
   tag: '$(Build.BuildId)'
