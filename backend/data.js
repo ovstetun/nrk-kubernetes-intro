@@ -29,8 +29,8 @@ const work = [
 ]
 
 const me = {
-    name: 'Arthur Dent',
-    location: 'Earth'
+    name: 'Trond Marius Øvstetun',
+    location: 'Kråkerøy'
 }
 
 module.exports = { me, work, education };
